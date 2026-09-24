@@ -1,0 +1,24 @@
+# 앱과 관계없는 파일
+*.pptx
+CLAUDE.md
+.claude/
+
+# 비밀 정보
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 의존성·빌드 결과
+node_modules/
+
+# OS·에디터
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Office 임시 파일
+~$*
